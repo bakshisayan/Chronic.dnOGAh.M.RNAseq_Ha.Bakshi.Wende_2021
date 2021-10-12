@@ -1,7 +1,7 @@
 ## Chronic.dnOGAh.M.RNAseq_Ha.Bakshi.Wende_2021 ##
 
 ### Author: 
-Sayan Bakshi, Integrated M.Sc. Biotechnology | PhD Trainee | sbakshi@uab.edu
+Sayan Bakshi, M.Sc. (Integrated) | PhD Trainee | sbakshi@uab.edu
 ### First Author of the manuscript: 
 Dr. Chae-Myeong Ha, PhD | cha@uabmc.edu
 ### Corresponding Author / PI: 
