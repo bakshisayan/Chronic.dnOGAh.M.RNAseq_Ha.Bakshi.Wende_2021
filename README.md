@@ -365,54 +365,54 @@ sessioninfo()
 |                                                                                               |
 |                                                                                               |
 | other attached packages:                                                                      |
-| [1] FactoClass_1.2.7            scatterplot3d_0.3-41        xtable_1.8-4                      |
-| [4] ade4_1.7-18                 eulerr_6.1.0                venndir_0.0.15.9000               |
-| [7] org.Mm.eg.db_3.12.0         AnnotationDbi_1.52.0        enrichplot_1.10.2                 |
-| [10] circlize_0.4.12             ReactomePA_1.34.0           pathview_1.30.1                  |
-| [13] fgsea_1.16.0                enrichR_3.0                 clusterProfiler_3.18.1           |
-| [16] vsn_3.58.0                  DESeq2_1.30.1               SummarizedExperiment_1.20.0      |
-| [19] Biobase_2.50.0              MatrixGenerics_1.2.1        matrixStats_0.58.0               |
-| [22] GenomicRanges_1.42.0        GenomeInfoDb_1.26.7         IRanges_2.24.1                   |
-| [25] S4Vectors_0.28.1            BiocGenerics_0.36.1         biomaRt_2.46.3                   |
-| [28] ggnewscale_0.4.5            ggbeeswarm_0.6.0            gridExtra_2.3                    |
-| [31] ggfortify_0.4.11            ggpubr_0.4.0                ggrepel_0.9.1                    |
-| [34] RColorBrewer_1.1-2          pheatmap_1.0.12             ggplot2_3.3.3                    |
-| [37] stringr_1.4.0               openxlsx_4.2.3              tidyr_1.1.3                      |
-| [40] dplyr_1.0.6                                                                              |
+| [1] FactoClass_1.2.7      |      scatterplot3d_0.3-41  |     xtable_1.8-4                      |
+| [4] ade4_1.7-18           |      eulerr_6.1.0          |      venndir_0.0.15.9000               |
+| [7] org.Mm.eg.db_3.12.0   |      AnnotationDbi_1.52.0  |      enrichplot_1.10.2                 |
+| [10] circlize_0.4.12      |       ReactomePA_1.34.0    |       pathview_1.30.1                  |
+| [13] fgsea_1.16.0         |       enrichR_3.0          |       clusterProfiler_3.18.1           |
+| [16] vsn_3.58.0           |       DESeq2_1.30.1        |       SummarizedExperiment_1.20.0      |
+| [19] Biobase_2.50.0       |       MatrixGenerics_1.2.1 |       matrixStats_0.58.0               |
+| [22] GenomicRanges_1.42.0 |       GenomeInfoDb_1.26.7  |       IRanges_2.24.1                   |
+| [25] S4Vectors_0.28.1     |       BiocGenerics_0.36.1  |       biomaRt_2.46.3                   |
+| [28] ggnewscale_0.4.5     |       ggbeeswarm_0.6.0     |       gridExtra_2.3                    |
+| [31] ggfortify_0.4.11     |       ggpubr_0.4.0         |       ggrepel_0.9.1                    |
+| [34] RColorBrewer_1.1-2   |       pheatmap_1.0.12      |       ggplot2_3.3.3                    |
+| [37] stringr_1.4.0        |       openxlsx_4.2.3       |       tidyr_1.1.3                      |
+| [40] dplyr_1.0.6          |                                                                    |
 |                                                                                               |
 |                                                                                               |
 | loaded via a namespace (and not attached):                                                    |
-| [1] pacman_0.5.1           utf8_1.2.1             tidyselect_1.1.1       RSQLite_2.2.7        |
-| [5] grid_4.0.3             BiocParallel_1.24.1    scatterpie_0.1.6       munsell_0.5.0        |
-| [9] preprocessCore_1.52.1  withr_2.4.2            colorspace_2.0-1       GOSemSim_2.16.1      |
-| [13] knitr_1.33             rstudioapi_0.13        ggsignif_0.6.1         DOSE_3.16.0         |
-| [17] labeling_0.4.2         KEGGgraph_1.50.0       GenomeInfoDbData_1.2.4 polyclip_1.10-0     |
-| [21] bit64_4.0.5            farver_2.1.0           downloader_0.4         vctrs_0.3.8         |
-| [25] generics_0.1.0         xfun_0.23              BiocFileCache_1.14.0   R6_2.5.0            |
-| [29] graphlayouts_0.7.1     locfit_1.5-9.4         bitops_1.0-7           cachem_1.0.5        |
-| [33] DelayedArray_0.16.3    assertthat_0.2.1       scales_1.1.1           ggraph_2.0.5        |
-| [37] beeswarm_0.3.1         gtable_0.3.0           affy_1.68.0            tidygraph_1.2.0     |
-| [41] rlang_0.4.11           genefilter_1.72.1      GlobalOptions_0.1.2    splines_4.0.3       |
-| [45] rstatix_0.7.0          broom_0.7.6            checkmate_2.0.0        BiocManager_1.30.15 |
-| [49] yaml_2.2.1             reshape2_1.4.4         abind_1.4-5            backports_1.2.1     |
-| [53] qvalue_2.22.0          tools_4.0.3            affyio_1.60.0          ellipsis_0.3.2      |
-| [57] Rcpp_1.0.6             plyr_1.8.6             progress_1.2.2         zlibbioc_1.36.0     |
-| [61] purrr_0.3.4            RCurl_1.98-1.3         prettyunits_1.1.1      openssl_1.4.4       |
-| [65] viridis_0.6.1          cowplot_1.1.1          haven_2.4.1            tinytex_0.31        |
-| [69] magrittr_2.0.1         data.table_1.14.0      DO.db_2.9              reactome.db_1.74.0  |
-| [73] hms_1.1.0              evaluate_0.14          XML_3.99-0.6           rio_0.5.26          |
-| [77] readxl_1.3.1           shape_1.4.6            compiler_4.0.3         tibble_3.1.2        |
-| [81] KernSmooth_2.23-17     crayon_1.4.1           shadowtext_0.0.8       htmltools_0.5.1.1   |
-| [85] geneplotter_1.68.0     DBI_1.1.1              tweenr_1.0.2           dbplyr_2.1.1        |
-| [89] MASS_7.3-53            rappdirs_0.3.3         Matrix_1.2-18          car_3.0-10          |
-| [93] cli_2.5.0              igraph_1.2.6           forcats_0.5.1          pkgconfig_2.0.3     |
-| [97] rvcheck_0.1.8          sp_1.4-5               foreign_0.8-80         xml2_1.3.2          |
-| [101] annotate_1.68.0        vipor_0.4.5            XVector_0.30.0         digest_0.6.27      |
-| [105] graph_1.68.0           Biostrings_2.58.0      rmarkdown_2.8          cellranger_1.1.0   |
-| [109] fastmatch_1.1-0        curl_4.3.1             graphite_1.36.0        rjson_0.2.20       |
-| [113] lifecycle_1.0.0        carData_3.0-4          viridisLite_0.4.0      askpass_1.1        |
-| [117] limma_3.46.0           fansi_0.4.2            pillar_1.6.1           lattice_0.20-41    |
-| [121] KEGGREST_1.30.1        fastmap_1.1.0          httr_1.4.2             survival_3.2-7     |
-| [125] GO.db_3.12.1           glue_1.4.2             zip_2.1.1              png_0.1-7          |
-| [129] bit_4.0.4              Rgraphviz_2.34.0       ggforce_0.3.3          stringi_1.6.2      |
-| [133] blob_1.2.1             org.Hs.eg.db_3.12.0    memoise_2.0.0                             |
+| [1] pacman_0.5.1         |  utf8_1.2.1          |   tidyselect_1.1.1   |    RSQLite_2.2.7        |
+| [5] grid_4.0.3           |  BiocParallel_1.24.1 |   scatterpie_0.1.6   |    munsell_0.5.0        |
+| [9] preprocessCore_1.52.1 | withr_2.4.2         |   colorspace_2.0-1   |    GOSemSim_2.16.1      |
+| [13] knitr_1.33          |   rstudioapi_0.13    |    ggsignif_0.6.1    |     DOSE_3.16.0         |
+| [17] labeling_0.4.2      |   KEGGgraph_1.50.0   |    GenomeInfoDbData_1.2.4 | polyclip_1.10-0     |
+| [21] bit64_4.0.5         |   farver_2.1.0       |    downloader_0.4       |  vctrs_0.3.8         |
+| [25] generics_0.1.0      |   xfun_0.23          |    BiocFileCache_1.14.0 |  R6_2.5.0            |
+| [29] graphlayouts_0.7.1  |   locfit_1.5-9.4     |    bitops_1.0-7         |  cachem_1.0.5        |
+| [33] DelayedArray_0.16.3 |   assertthat_0.2.1   |    scales_1.1.1         |  ggraph_2.0.5        |
+| [37] beeswarm_0.3.1      |   gtable_0.3.0       |    affy_1.68.0          |  tidygraph_1.2.0     |
+| [41] rlang_0.4.11        |   genefilter_1.72.1  |    GlobalOptions_0.1.2  |  splines_4.0.3       |
+| [45] rstatix_0.7.0       |   broom_0.7.6        |    checkmate_2.0.0      |  BiocManager_1.30.15 |
+| [49] yaml_2.2.1          |   reshape2_1.4.4     |    abind_1.4-5          |  backports_1.2.1     |
+| [53] qvalue_2.22.0       |   tools_4.0.3        |    affyio_1.60.0        |  ellipsis_0.3.2      |
+| [57] Rcpp_1.0.6          |   plyr_1.8.6         |    progress_1.2.2       |  zlibbioc_1.36.0     |
+| [61] purrr_0.3.4         |   RCurl_1.98-1.3     |    prettyunits_1.1.1    |  openssl_1.4.4       |
+| [65] viridis_0.6.1       |   cowplot_1.1.1      |    haven_2.4.1          |  tinytex_0.31        |
+| [69] magrittr_2.0.1      |   data.table_1.14.0  |    DO.db_2.9            |  reactome.db_1.74.0  |
+| [73] hms_1.1.0           |   evaluate_0.14      |    XML_3.99-0.6         |  rio_0.5.26          |
+| [77] readxl_1.3.1        |   shape_1.4.6        |    compiler_4.0.3       |  tibble_3.1.2        |
+| [81] KernSmooth_2.23-17  |   crayon_1.4.1       |    shadowtext_0.0.8     |  htmltools_0.5.1.1   |
+| [85] geneplotter_1.68.0  |   DBI_1.1.1          |    tweenr_1.0.2         |  dbplyr_2.1.1        |
+| [89] MASS_7.3-53         |   rappdirs_0.3.3     |    Matrix_1.2-18        |  car_3.0-10          |
+| [93] cli_2.5.0           |   igraph_1.2.6       |    forcats_0.5.1        |  pkgconfig_2.0.3     |
+| [97] rvcheck_0.1.8       |   sp_1.4-5           |    foreign_0.8-80       |  xml2_1.3.2          |
+| [101] annotate_1.68.0    |    vipor_0.4.5       |     XVector_0.30.0      |   digest_0.6.27      |
+| [105] graph_1.68.0       |    Biostrings_2.58.0 |     rmarkdown_2.8       |   cellranger_1.1.0   |
+| [109] fastmatch_1.1-0    |    curl_4.3.1        |     graphite_1.36.0     |   rjson_0.2.20       |
+| [113] lifecycle_1.0.0    |    carData_3.0-4     |     viridisLite_0.4.0   |   askpass_1.1        |
+| [117] limma_3.46.0       |    fansi_0.4.2       |     pillar_1.6.1        |   lattice_0.20-41    |
+| [121] KEGGREST_1.30.1    |    fastmap_1.1.0     |     httr_1.4.2          |   survival_3.2-7     |
+| [125] GO.db_3.12.1       |    glue_1.4.2        |     zip_2.1.1           |   png_0.1-7          |
+| [129] bit_4.0.4          |    Rgraphviz_2.34.0  |     ggforce_0.3.3       |   stringi_1.6.2      |
+| [133] blob_1.2.1         |    org.Hs.eg.db_3.12.0 |    memoise_2.0.0      |                      |
