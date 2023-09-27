@@ -7,12 +7,6 @@ Dr. Chae-Myeong Ha, PhD
 ### Corresponding Author / PI: 
 Dr. Adam R. Wende, PhD, Department of Pathology, University of Alabama at Birmingham, Birmingham, Alabama, USA
 
-## Introduction
-TBD
-
-## Methods 
-TBD 
-
 ## Loading Libraries 
 ```r
 ## Setting file path ##
